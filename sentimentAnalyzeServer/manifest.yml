@@ -2,7 +2,7 @@
 applications:
 - path: .
   name: amr-sentiment-analyzer #change to be unique in IBM Cloud
-  buildpack: sdk-for-nodejs
+  buildpack: default
   memory: 256M
   instances: 1
   random-route: true
